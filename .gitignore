@@ -1,0 +1,13 @@
+.DS_Store
+.venv/
+data/
+old_buggy_axis/
+tools/tectonic
+tools/arm/
+tools/*.log
+firmware/fw_m4.elf
+firmware/test_native
+firmware/vectors.bin
+firmware/window_data.h
+firmware/build.log
+submission/
