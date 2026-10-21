@@ -1,0 +1,9 @@
+CNN with FFNN-derived allocations (15 subjects, 2 seeds, 20 epochs, 54.0 min)
+  rho>=18  uniform  ratio= 20.6 acc= 88.4 
+  rho>=18  feat     ratio= 18.5 acc= 88.9 diff=+0.4 p=0.934
+  rho>=18  clf      ratio= 18.5 acc= 88.9 diff=+0.4 p=0.934
+  rho>=24  uniform  ratio= 26.5 acc= 82.7 
+  rho>=24  feat     ratio= 24.0 acc= 81.4 diff=-1.3 p=0.421
+  rho>=24  clf      ratio= 24.0 acc= 80.2 diff=-2.5 p=0.135
+  pooled feat: -0.44 (p=0.7766, n=30)
+  pooled clf: -1.06 (p=0.4400, n=30)
