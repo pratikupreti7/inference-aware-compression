@@ -1,0 +1,5 @@
+Firmware evidence
+native test: windows=3456 samples=5806080 identical_indices=0.973963 bits_c=12110605 bits_py=12102453 rel_diff=0.00067 max_err_over_eps=1.0000009 bound_violations=0
+emulation: codec instructions=2316446 for 10080 samples (230/sample); total incl. startup+semihosting=3037901
+code size (codec + qsort/memset/floorf): 2640 B; scratch RAM: 176640 B
+estimate @64 MHz, CPI=1, 52 uA/MHz, 3.0 V: 36.2 ms per 60 s window (0.06% duty), 0.36 mJ per window

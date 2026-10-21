@@ -1,0 +1,41 @@
+{
+ "native": {
+  "windows": 3456,
+  "samples": 5806080,
+  "identical_indices": 0.973963,
+  "bits_c": 12110605,
+  "bits_py": 12102453,
+  "rel_diff": 0.00067,
+  "max_err_over_eps": 1.0000009,
+  "bound_violations": 0
+ },
+ "emulation": {
+  "total_instructions": 3037901,
+  "codec_instructions": 2316446,
+  "samples": 10080,
+  "bits": 18308,
+  "instr_per_sample": 229.8061507936508,
+  "cpu": "Cortex-M4 (Unicorn 2.1.4 emulation, hard-float, -O2, GCC 13.3)"
+ },
+ "size": {
+  "codec_code_bytes": 2640,
+  "codec_funcs": {
+   "memset": 16,
+   "cmp_i32": 24,
+   "memcpy": 28,
+   "floorf": 148,
+   "qsort": 654,
+   "codec_encode": 1770
+  },
+  "ram_scratch_bytes": 176640
+ },
+ "energy_estimate": {
+  "f_mhz": 64.0,
+  "ua_per_mhz": 52.0,
+  "volt": 3.0,
+  "cpi_assumed": 1.0,
+  "t_window_ms": 36.19446875,
+  "e_window_mj": 0.36136557599999997,
+  "duty_cycle_pct": 0.06032411458333333
+ }
+}
