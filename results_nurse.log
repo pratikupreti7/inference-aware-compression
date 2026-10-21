@@ -1,0 +1,72 @@
+loaded 15: 72.9 h, labeled s {0: 1680, 2: 36960}
+loaded 5C: 99.3 h, labeled s {0: 38640, 1: 36960, 2: 32640}
+loaded 6B: 58.1 h, labeled s {0: 13440, 2: 88552}
+loaded 6D: 24.0 h, labeled s {0: 62880, 2: 11040}
+loaded 7A: 79.4 h, labeled s {0: 5760, 1: 44192, 2: 117840}
+loaded 7E: 50.7 h, labeled s {0: 14640, 2: 10800}
+loaded 83: 149.8 h, labeled s {0: 17040, 2: 119188}
+loaded 8B: 27.2 h, labeled s {0: 17280, 2: 35448}
+loaded 94: 80.6 h, labeled s {0: 45288, 1: 10692, 2: 16560}
+loaded BG: 75.9 h, labeled s {0: 720, 2: 63868}
+loaded CE: 111.1 h, labeled s {1: 2400, 2: 99360}
+loaded DF: 127.7 h, labeled s {0: 8160, 2: 105360}
+loaded E4: 116.1 h, labeled s {0: 34908, 1: 1920, 2: 148432}
+loaded EG: 107.9 h, labeled s {2: 64004}
+loaded F5: 69.5 h, labeled s {0: 3840, 2: 55200}
+sigma: {'BVP': 102.91473996120477, 'EDA': 2.9120327215538526, 'TEMP': 2.4846535043767277, 'ACC': 38.31641897325135}
+[raw] ratio=1.00x max_err/eps=0.0000 ok=True (85s)
+[proposed_0.005] ratio=6.40x max_err/eps=1.0000 ok=True (254s)
+[uniform_0.005] ratio=4.26x max_err/eps=1.0000 ok=True (426s)
+[zfp_0.005] ratio=3.01x max_err/eps=0.7190 ok=True (532s)
+[proposed_0.01] ratio=7.95x max_err/eps=1.0000 ok=True (699s)
+[uniform_0.01] ratio=4.66x max_err/eps=1.0000 ok=True (959s)
+[zfp_0.01] ratio=3.30x max_err/eps=0.7190 ok=True (1065s)
+[proposed_0.02] ratio=10.18x max_err/eps=1.0000 ok=True (1173s)
+[uniform_0.02] ratio=5.58x max_err/eps=1.0000 ok=True (1278s)
+[zfp_0.02] ratio=3.64x max_err/eps=0.7239 ok=True (1373s)
+[proposed_0.05] ratio=13.98x max_err/eps=1.0000 ok=True (1501s)
+[uniform_0.05] ratio=7.77x max_err/eps=1.0000 ok=True (1609s)
+[zfp_0.05] ratio=4.06x max_err/eps=0.6405 ok=True (1694s)
+[proposed_0.1] ratio=17.36x max_err/eps=1.0000 ok=True (1802s)
+[uniform_0.1] ratio=10.28x max_err/eps=1.0000 ok=True (1899s)
+[zfp_0.1] ratio=4.58x max_err/eps=0.6405 ok=True (1976s)
+[proposed_0.2] ratio=20.79x max_err/eps=1.0000 ok=True (2100s)
+[uniform_0.2] ratio=13.83x max_err/eps=1.0000 ok=True (2184s)
+[zfp_0.2] ratio=5.24x max_err/eps=1.1077 ok=False (2299s)
+[downsample_2] ratio=2.00x max_err/eps=0.0000 ok=True (2387s)
+[downsample_4] ratio=4.00x max_err/eps=0.0000 ok=True (2473s)
+[downsample_8] ratio=7.98x max_err/eps=0.0000 ok=True (2568s)
+[lossless] ratio=2.81x max_err/eps=0.0000 ok=True (3778s)
+NOTE: baseline zfp_0.2 exceeded its nominal tolerance (max err/eps = 1.108); reported, not aborted
+nurses with both classes and >=10 windows: ['15', '5C', '6B', '6D', '7A', '7E', '83', '8B', '94', 'BG', 'DF', 'E4', 'F5'] (of ['15', '5C', '6B', '6D', '7A', '7E', '83', '8B', '94', 'BG', 'CE', 'DF', 'E4', 'EG', 'F5'])
+windows: 28881, stress 22478 (77.8%)
+running 1495 LOSO fits ...
+done (8554s)
+
+NURSE stress (13 nurses evaluated of 15, 5 seeds, 28881 windows, 77.8% stress, 142.6 min)
+sigma: {'BVP': 102.91473996120477, 'EDA': 2.9120327215538526, 'TEMP': 2.4846535043767277, 'ACC': 38.31641897325135}
+config            ratio maxerr/eps    acc   dAcc     p     F1    dF1   pF1  F1_mm
+raw                1.00     0.0000   67.4   +0.0  1.00   48.6   +0.0  1.00   48.6
+proposed_0.005     6.40     1.0000   67.8   +0.4  0.68   48.7   +0.1  0.68   48.5
+uniform_0.005      4.26     1.0000   67.6   +0.2  0.85   48.6   +0.1  0.89   48.5
+zfp_0.005          3.01     0.7190   67.3   -0.1  0.79   48.4   -0.1  0.27   48.6
+proposed_0.01      7.95     1.0000   66.7   -0.7  0.24   48.3   -0.3  0.64   48.2
+uniform_0.01       4.66     1.0000   66.8   -0.6  0.27   48.4   -0.2  1.00   48.2
+zfp_0.01           3.30     0.7190   67.1   -0.3  0.68   48.4   -0.2  0.84   48.6
+proposed_0.02     10.18     1.0000   67.7   +0.3  0.74   49.1   +0.6  0.38   48.8
+uniform_0.02       5.58     1.0000   68.2   +0.8  0.45   49.3   +0.8  0.31   48.8
+zfp_0.02           3.64     0.7239   67.7   +0.3  0.79   48.8   +0.3  0.45   48.5
+proposed_0.05     13.98     1.0000   67.6   +0.2  0.89   49.0   +0.4  0.79   47.5
+uniform_0.05       7.77     1.0000   67.1   -0.3  0.50   48.6   +0.0  0.95   47.5
+zfp_0.05           4.06     0.6405   68.2   +0.8  0.79   49.3   +0.7  0.59   48.2
+proposed_0.1      17.36     1.0000   66.5   -0.9  0.41   48.1   -0.5  0.45   46.9
+uniform_0.1       10.28     1.0000   66.3   -1.1  0.41   48.0   -0.5  0.34   46.9
+zfp_0.1            4.58     0.6405   67.4   +0.0  1.00   48.4   -0.1  0.74   48.2
+proposed_0.2      20.79     1.0000   66.3   -1.1  0.68   48.2   -0.4  0.54   45.8
+uniform_0.2       13.83     1.0000   66.1   -1.3  0.74   47.9   -0.6  0.64   45.8
+zfp_0.2            5.24     1.1077   67.6   +0.2  0.84   48.7   +0.2  0.95   48.4
+downsample_2       2.00     0.0000   67.9   +0.5  0.31   48.8   +0.3  0.50   47.9
+downsample_4       4.00     0.0000   67.4   +0.0  0.68   48.3   -0.3  0.41   47.6
+downsample_8       7.98     0.0000   67.0   -0.4  0.59   47.8   -0.7  0.22   46.7
+lossless           2.81     0.0000   67.4   +0.0  1.00   48.6   +0.0  1.00   48.6
+exit=0

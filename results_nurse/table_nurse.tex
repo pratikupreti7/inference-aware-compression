@@ -1,0 +1,17 @@
+\begin{tabular}{llcccccc}
+\toprule
+Method & Setting & Ratio $\rho$ & Acc. (\%) & F1 (\%) & $\Delta$F1 & $p$ & F1 mism. (\%) \\
+\midrule
+Uncompressed & --- & 1.0$\times$ & 67.4 & 48.6 $\pm$ 5.0 & --- & --- & 48.6 \\
+Proposed & $\epsilon=0.005\sigma$ & 6.4$\times$ & 67.8 & 48.7 $\pm$ 5.2 & +0.1 & 0.68 & 48.5 \\
+Proposed & $\epsilon=0.01\sigma$ & 7.9$\times$ & 66.7 & 48.3 $\pm$ 5.2 & -0.3 & 0.64 & 48.2 \\
+Proposed & $\epsilon=0.02\sigma$ & 10.2$\times$ & 67.7 & 49.1 $\pm$ 5.4 & +0.6 & 0.38 & 48.8 \\
+Proposed & $\epsilon=0.05\sigma$ & 14.0$\times$ & 67.6 & 49.0 $\pm$ 4.9 & +0.4 & 0.79 & 47.5 \\
+Proposed & $\epsilon=0.1\sigma$ & 17.4$\times$ & 66.5 & 48.1 $\pm$ 5.9 & -0.5 & 0.45 & 46.9 \\
+Proposed & $\epsilon=0.2\sigma$ & 20.8$\times$ & 66.3 & 48.2 $\pm$ 5.9 & -0.4 & 0.54 & 45.8 \\
+Downsampling & $D=2$ & 2.0$\times$ & 67.9 & 48.8 $\pm$ 5.1 & +0.3 & 0.50 & 47.9 \\
+Downsampling & $D=4$ & 4.0$\times$ & 67.4 & 48.3 $\pm$ 5.3 & -0.3 & 0.41 & 47.6 \\
+Downsampling & $D=8$ & 8.0$\times$ & 67.0 & 47.8 $\pm$ 4.9 & -0.7 & 0.22 & 46.7 \\
+Lossless zlib & --- & 2.8$\times$ & 67.4 & 48.6 $\pm$ 5.0 & +0.0 & 1.00 & 48.6 \\
+\bottomrule
+\end{tabular}
