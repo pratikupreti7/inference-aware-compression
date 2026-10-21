@@ -1,0 +1,61 @@
+sigma: {'BVP': 65.16623736083392, 'EDA': 2.3432750581582242, 'TEMP': 1.498088909676143, 'ACC': 35.74139193751651}
+S2: 198 windows precomputed (42s)
+S3: 201 windows precomputed (46s)
+S4: 203 windows precomputed (50s)
+S5: 208 windows precomputed (55s)
+S6: 205 windows precomputed (60s)
+S7: 205 windows precomputed (67s)
+S8: 206 windows precomputed (75s)
+S9: 206 windows precomputed (81s)
+S10: 214 windows precomputed (87s)
+S11: 209 windows precomputed (91s)
+S13: 209 windows precomputed (97s)
+S14: 208 windows precomputed (102s)
+S15: 209 windows precomputed (106s)
+S16: 207 windows precomputed (110s)
+S17: 213 windows precomputed (116s)
+10000 allocations enumerated
+fold S2: plans rho>=4: uniform=1111,feat=1001,clf=1001; rho>=6: uniform=1111,feat=1001,clf=1001; rho>=8: uniform=1111,feat=2011,clf=2011; rho>=10: uniform=3333,feat=2111,clf=4014; rho>=12: uniform=4444,feat=4131,clf=3114; rho>=15: uniform=5555,feat=4115,clf=4115; rho>=18: uniform=6666,feat=5116,clf=5116; rho>=21: uniform=7777,feat=6117,clf=6117; rho>=24: uniform=8888,feat=8317,clf=8417; rho>=28: uniform=9999,feat=9769,clf=9769
+fold S3: plans rho>=4: uniform=1111,feat=1001,clf=1001; rho>=6: uniform=1111,feat=1001,clf=1001; rho>=8: uniform=1111,feat=2011,clf=2011; rho>=10: uniform=3333,feat=2111,clf=4014; rho>=12: uniform=4444,feat=5111,clf=3124; rho>=15: uniform=5555,feat=4115,clf=4115; rho>=18: uniform=6666,feat=5116,clf=5116; rho>=21: uniform=7777,feat=6127,clf=6127; rho>=24: uniform=8888,feat=8237,clf=8417; rho>=28: uniform=9999,feat=9789,clf=9969
+fold S4: plans rho>=4: uniform=1111,feat=1001,clf=1001; rho>=6: uniform=1111,feat=1001,clf=1001; rho>=8: uniform=1111,feat=2011,clf=2011; rho>=10: uniform=3333,feat=2111,clf=4014; rho>=12: uniform=4444,feat=5111,clf=3114; rho>=15: uniform=5555,feat=4115,clf=4115; rho>=18: uniform=6666,feat=5116,clf=5116; rho>=21: uniform=7777,feat=6117,clf=6117; rho>=24: uniform=8888,feat=8317,clf=8157; rho>=28: uniform=9999,feat=9769,clf=9679
+fold S5: plans rho>=4: uniform=1111,feat=1001,clf=1001; rho>=6: uniform=1111,feat=1001,clf=1001; rho>=8: uniform=1111,feat=2011,clf=2011; rho>=10: uniform=3333,feat=2111,clf=2015; rho>=12: uniform=4444,feat=5111,clf=3114; rho>=15: uniform=5555,feat=4115,clf=4115; rho>=18: uniform=6666,feat=5116,clf=5116; rho>=21: uniform=7777,feat=5447,clf=6117; rho>=24: uniform=8888,feat=8317,clf=8157; rho>=28: uniform=9999,feat=9659,clf=9579
+fold S6: plans rho>=4: uniform=1111,feat=1001,clf=1001; rho>=6: uniform=1111,feat=1001,clf=1001; rho>=8: uniform=1111,feat=2011,clf=2011; rho>=10: uniform=3333,feat=2111,clf=4014; rho>=12: uniform=4444,feat=5111,clf=3114; rho>=15: uniform=5555,feat=4115,clf=4115; rho>=18: uniform=6666,feat=5116,clf=5116; rho>=21: uniform=7777,feat=6117,clf=6117; rho>=24: uniform=8888,feat=8317,clf=8157; rho>=28: uniform=9999,feat=9779,clf=9699
+fold S7: plans rho>=4: uniform=1111,feat=1001,clf=1001; rho>=6: uniform=1111,feat=1001,clf=1001; rho>=8: uniform=1111,feat=2011,clf=2011; rho>=10: uniform=3333,feat=2111,clf=4014; rho>=12: uniform=4444,feat=5111,clf=3124; rho>=15: uniform=5555,feat=4115,clf=4115; rho>=18: uniform=6666,feat=5116,clf=5116; rho>=21: uniform=7777,feat=6117,clf=6117; rho>=24: uniform=8888,feat=8327,clf=8417; rho>=28: uniform=9999,feat=9879,clf=9989
+fold S8: plans rho>=4: uniform=1111,feat=1001,clf=1001; rho>=6: uniform=1111,feat=1001,clf=1001; rho>=8: uniform=1111,feat=2011,clf=2011; rho>=10: uniform=3333,feat=2111,clf=4014; rho>=12: uniform=4444,feat=5111,clf=3114; rho>=15: uniform=5555,feat=4115,clf=4115; rho>=18: uniform=6666,feat=5116,clf=5116; rho>=21: uniform=7777,feat=6117,clf=6117; rho>=24: uniform=8888,feat=8317,clf=8157; rho>=28: uniform=9999,feat=9769,clf=9699
+fold S9: plans rho>=4: uniform=1111,feat=1001,clf=1001; rho>=6: uniform=1111,feat=1001,clf=1001; rho>=8: uniform=1111,feat=2011,clf=2011; rho>=10: uniform=3333,feat=2111,clf=2111; rho>=12: uniform=4444,feat=5111,clf=3124; rho>=15: uniform=5555,feat=4115,clf=4115; rho>=18: uniform=6666,feat=5116,clf=5116; rho>=21: uniform=7777,feat=6117,clf=6117; rho>=24: uniform=8888,feat=8327,clf=8237; rho>=28: uniform=9999,feat=9779,clf=9699
+fold S10: plans rho>=4: uniform=1111,feat=1001,clf=1001; rho>=6: uniform=1111,feat=1001,clf=1001; rho>=8: uniform=1111,feat=2011,clf=2011; rho>=10: uniform=3333,feat=2111,clf=4014; rho>=12: uniform=4444,feat=5111,clf=3134; rho>=15: uniform=5555,feat=4115,clf=4115; rho>=18: uniform=6666,feat=5116,clf=5116; rho>=21: uniform=7777,feat=6117,clf=6117; rho>=24: uniform=8888,feat=8327,clf=8417; rho>=28: uniform=9999,feat=9879,clf=9799
+fold S11: plans rho>=4: uniform=1111,feat=1001,clf=1001; rho>=6: uniform=1111,feat=1001,clf=1001; rho>=8: uniform=1111,feat=2011,clf=2011; rho>=10: uniform=3333,feat=2111,clf=4014; rho>=12: uniform=4444,feat=5111,clf=3114; rho>=15: uniform=5555,feat=4115,clf=4115; rho>=18: uniform=6666,feat=5116,clf=5116; rho>=21: uniform=7777,feat=6117,clf=6117; rho>=24: uniform=8888,feat=8327,clf=8157; rho>=28: uniform=9999,feat=9779,clf=9699
+fold S13: plans rho>=4: uniform=1111,feat=1001,clf=1001; rho>=6: uniform=1111,feat=1001,clf=1001; rho>=8: uniform=1111,feat=2011,clf=2011; rho>=10: uniform=3333,feat=2111,clf=4014; rho>=12: uniform=4444,feat=4141,clf=3114; rho>=15: uniform=5555,feat=4115,clf=4115; rho>=18: uniform=6666,feat=5116,clf=5116; rho>=21: uniform=7777,feat=6117,clf=6117; rho>=24: uniform=8888,feat=8147,clf=8147; rho>=28: uniform=9999,feat=9669,clf=9599
+fold S14: plans rho>=4: uniform=1111,feat=1001,clf=1001; rho>=6: uniform=1111,feat=1001,clf=1001; rho>=8: uniform=1111,feat=2011,clf=2011; rho>=10: uniform=3333,feat=2111,clf=4014; rho>=12: uniform=4444,feat=5111,clf=3114; rho>=15: uniform=5555,feat=4115,clf=4115; rho>=18: uniform=6666,feat=5116,clf=5116; rho>=21: uniform=7777,feat=6117,clf=6117; rho>=24: uniform=8888,feat=8317,clf=8417; rho>=28: uniform=9999,feat=9779,clf=9699
+fold S15: plans rho>=4: uniform=1111,feat=1001,clf=1001; rho>=6: uniform=1111,feat=1001,clf=1001; rho>=8: uniform=1111,feat=2011,clf=2011; rho>=10: uniform=3333,feat=2111,clf=2111; rho>=12: uniform=4444,feat=5111,clf=3114; rho>=15: uniform=5555,feat=4115,clf=4115; rho>=18: uniform=6666,feat=5116,clf=5116; rho>=21: uniform=7777,feat=6117,clf=6117; rho>=24: uniform=8888,feat=8327,clf=7139; rho>=28: uniform=9999,feat=9779,clf=9699
+fold S16: plans rho>=4: uniform=1111,feat=1001,clf=1001; rho>=6: uniform=1111,feat=1001,clf=1001; rho>=8: uniform=1111,feat=2011,clf=2011; rho>=10: uniform=3333,feat=2111,clf=2111; rho>=12: uniform=4444,feat=5111,clf=3124; rho>=15: uniform=5555,feat=4115,clf=4115; rho>=18: uniform=6666,feat=5116,clf=5116; rho>=21: uniform=7777,feat=6127,clf=6127; rho>=24: uniform=8888,feat=8327,clf=8327; rho>=28: uniform=9999,feat=9789,clf=9979
+fold S17: plans rho>=4: uniform=1111,feat=1001,clf=1001; rho>=6: uniform=1111,feat=1001,clf=1001; rho>=8: uniform=1111,feat=2011,clf=2011; rho>=10: uniform=3333,feat=2111,clf=4014; rho>=12: uniform=4444,feat=5111,clf=3114; rho>=15: uniform=5555,feat=4115,clf=4115; rho>=18: uniform=6666,feat=5116,clf=5116; rho>=21: uniform=7777,feat=6117,clf=6117; rho>=24: uniform=8888,feat=8317,clf=8157; rho>=28: uniform=9999,feat=9779,clf=9689
+running 2250 fits ...
+fits done (918s)
+
+ALLOCATION RESULTS (15 subjects, 5 seeds, 10000 combos)
+ target uni_ratio uni_acc feat_ratio feat_acc clf_ratio clf_acc clf-uni      p   clf median eps/sigma per group ['BVP', 'EDA', 'TEMP', 'ACC']
+      4       8.8    89.7        6.4     89.3       6.4    89.3    -0.4   0.07   [0.002, 0.0, 0.0, 0.002]
+      6       8.8    89.7        6.4     89.3       6.4    89.3    -0.4   0.07   [0.002, 0.0, 0.0, 0.002]
+      8       8.8    89.7        8.3     89.2       8.3    89.2    -0.4   0.03   [0.005, 0.0, 0.002, 0.002]
+     10      10.5    89.2       10.1     89.7      10.1    89.8    +0.7   0.20   [0.02, 0.0, 0.002, 0.02]
+     12      13.3    89.9       12.4     90.2      12.0    89.7    -0.3   0.40   [0.01, 0.002, 0.002, 0.02]
+     15      17.5    90.7       15.6     90.1      15.6    90.1    -0.6   0.27   [0.02, 0.002, 0.002, 0.05]
+     18      20.6    89.5       18.5     90.5      18.5    90.5    +1.1   0.28   [0.05, 0.002, 0.002, 0.1]
+     21      23.6    87.5       21.0     90.6      21.1    90.7    +3.2   0.02   [0.1, 0.002, 0.002, 0.2]
+     24      26.5    87.6       24.0     86.6      24.0    87.3    -0.3   0.85   [0.5, 0.002, 0.01, 0.2]
+     28      28.1    75.1       28.0     82.4      28.0    78.8    +3.7   0.42   [1.0, 0.1, 1.0, 1.0]
+pooled clf-uniform diff +0.63 (p=0.6316, n=150); feat-uniform +0.95 (p=0.4482)
+Matched-ratio accuracy (interpolated per subject): ratio -> uniform / feat / clf  [p clf vs uniform]
+  rho=  8: 91.2 / 89.3 / 89.2  [p=0.500, n=3]
+  rho= 10: 89.4 / 89.5 / 89.7  [p=0.272, n=15]
+  rho= 12: 89.4 / 90.3 / 89.8  [p=0.158, n=15]
+  rho= 14: 90.1 / 90.2 / 90.0  [p=0.470, n=15]
+  rho= 16: 90.5 / 90.0 / 90.0  [p=0.158, n=15]
+  rho= 18: 90.2 / 90.2 / 90.3  [p=0.389, n=15]
+  rho= 20: 89.4 / 90.5 / 90.7  [p=0.107, n=15]
+  rho= 22: 89.1 / 90.1 / 90.4  [p=0.229, n=15]
+  rho= 24: 87.4 / 87.3 / 87.7  [p=0.679, n=15]
+  mean accuracy over rho in [8,24]: feat - uniform = +0.27 (p=0.3303)
+  mean accuracy over rho in [8,24]: clf - uniform = +0.30 (p=0.3303)
+total 919s
