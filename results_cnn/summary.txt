@@ -1,0 +1,10 @@
+CNN results (15 subjects, 3 seeds, 30 epochs, 38034 params, 121.0 min)
+config            ratio    acc   dAcc     p     F1  acc_mm
+raw                1.00   89.9   +0.0  1.00   87.4    89.9
+proposed_0.01     10.51   87.7   -2.2  0.01   85.4    88.6
+proposed_0.02     13.31   89.2   -0.7  0.36   86.7    87.6
+proposed_0.05     17.51   89.5   -0.4  0.25   87.0    87.2
+proposed_0.1      20.63   87.1   -2.7  0.06   84.2    86.2
+proposed_0.2      23.62   89.3   -0.5  1.00   86.7    83.5
+downsample_4       4.00   87.7   -2.2  0.05   85.5    87.4
+downsample_8       7.98   87.3   -2.6  0.01   84.3    86.5
